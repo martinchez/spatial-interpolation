@@ -1,0 +1,7 @@
+{
+    "installOptions" : {
+        "installDependencies" : true,
+        "installFromRepository" : true,
+        "libraryPath" : "C:/Users/ShellHunter.DESKTOP-EO423F6/Documents/R/win-library/3.6"
+    }
+}

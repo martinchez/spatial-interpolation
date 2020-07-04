@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1593680450986.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "527737870",
+    "id" : "A9E38B5B",
+    "lastKnownWriteTime" : 1593856774,
+    "last_content_update" : 1593856774315,
+    "path" : "~/rstudio/interpolation/interpolation.R",
+    "project_path" : "interpolation.R",
+    "properties" : {
+        "cursorPosition" : "51,0",
+        "scrollLine" : "37",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
