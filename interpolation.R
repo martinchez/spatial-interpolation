@@ -49,3 +49,7 @@ plot(v)
 ca <- aggregate(cata)
 vca <- intersect(v, ca)
 spplot(vca, 'prec', col.regions=rev(get_col_regions()))
+
+r<- raster(cata,res=10000)
+vr<-rasterize(vca,r,'prec')
+plot(vr)
