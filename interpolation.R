@@ -53,3 +53,20 @@ spplot(vca, 'prec', col.regions=rev(get_col_regions()))
 r<- raster(cata,res=10000)
 vr<-rasterize(vca,r,'prec')
 plot(vr)
+
+
+
+set.seed(5132015)
+kf <- kfold(nrow(dta))
+rmse <- rep(NA, 5)
+for (k in 1:5) {
+  test <- dta[kf == k, ]
+  train <- dta[kf != k, ]
+  v <- voronoi(train)
+  p <- extract(v, test)
+  rmse[k] <- RMSE(test$prec, p$prec)
+}
+rmse
+
+mean(rmse)
+1-(mean(rmse)/null)
